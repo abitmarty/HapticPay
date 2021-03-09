@@ -1,0 +1,82 @@
+.boxed{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.flexrow{
+  display: inline-flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.flexcol{
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.ctbody{
+  padding: 0;
+  margin: 0;
+}
+
+.nomargin{
+  margin:0;
+  padding:0;
+}
+
+.betaalform1 legend{
+  color: var(--themeColor);
+}
+
+#personalDataBlock{
+  color: var(--themeColor);
+  padding-left:0px;
+}
+
+#legendtitle{
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+}
+
+#oShippingPayment{
+  border:none;
+  border-bottom: 2px solid;
+  border-color: var(--themeColor);
+}
+
+#oShippingPayment option{
+  font-family: Poppins, sans-serif;
+}
+
+.flexed{
+  display: flex;
+}
+
+.desk_checkout{
+  display:none;
+}
+.mob_checkout{
+  display: flex;
+}
+.container #content #options{
+  display: none;
+}
+
+@media screen and (min-width: 48em){
+  .mob_checkout{
+    display:none;
+  }
+
+  .desk_checkout{
+    display: flex;
+  }
+
+  #order #personalData #setBasic, #order #personalData #setExtend{
+    width: 50%;
+  }
+
+  #shippingAndPayments div{
+    width: 40%;
+  }
+}

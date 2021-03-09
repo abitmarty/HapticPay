@@ -1,0 +1,112 @@
+#copy{
+  color: blue !important;
+}
+
+#foot .container{
+  padding-top: 0px;
+  width: 100%;
+}
+
+.footer_row1{
+  width: auto;
+  height: 50px;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+  margin-left: 10px;
+}
+
+.footer_row2{
+  width: auto;
+  height: 16px;
+  margin: 0 auto;
+  padding: 0px 0px 0px 0px;
+  margin-left: 10px;
+}
+
+.footer_grid{
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
+
+}
+
+.beoordeeling_green{
+  color: var(--themeColor);
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.inline{
+  display: inline-block;
+  padding-top:10px;
+}
+
+
+.footer_link{
+  color: coolblue;
+  font-family: Poppins, sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.pb_footer_title{
+  font-family: Poppins, sans-serif;
+  font-size: 34px;
+  margin-left: 10px;
+}
+
+.truststars{
+  background-image: url('../admin/img/stars.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*width: 200px;
+  height: auto;*/
+}
+
+.trust-logos--logo{
+  display: inline-block;
+  height: 3.2rem;
+  background-image: url(https://assets.coolblue.nl/images/default/trust/trust-icons-sprite.20191016.svg);
+  background-repeat: no-repeat;
+  background-size: 60rem;
+  padding-right: 20px;
+}
+
+.trust-logos--ideal{
+  background-position: -30rem 0;
+  width: 3.1rem;
+}
+
+.trust-logos-wrapper{
+  padding-left: 10px;
+  width: auto;
+}
+
+.trust-logos--mastercard {
+    background-position: 0 0;
+    width: 4.7rem;
+}
+
+.trust-logos--visa {
+    background-position: -10rem 0;
+    width: 5.9rem;
+}
+
+.trust-logos--applepay{
+    background-position: -20rem -4.7rem;
+    width: 4.5rem;
+}
+
+
+@media screen and (min-width:48em){
+  *{}
+
+    #foot .container{
+      width: 960px;
+    }
+
+    .trust-logos-wrapper{
+      padding-left: 10px;
+      width: 32.25%;
+    }
+}

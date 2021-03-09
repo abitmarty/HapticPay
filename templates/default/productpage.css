@@ -1,0 +1,346 @@
+#imagesList1 {
+  margin: 0;
+}
+
+#product {
+  width: 100%;
+  margin: 0px;
+  float: none;
+  padding: 0 20px;
+  text-align: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#product h1{
+  text-shadow: none;
+  color: #333;
+}
+
+#product #box {
+  background: none;
+  text-align: left;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: 0px;
+  padding: 8px 0px;
+  width: 100%;
+}
+
+#product #box #addBasket{
+  padding: 0;
+}
+
+#product #box #addBasket .submit {
+  border: 1px solid var(--themeColor);
+  transition: 0.2s ease background, 0.2s ease color;
+  padding: 10px 0px;
+  cursor: pointer;
+  text-shadow: none !important;
+  border-radius: 4px;
+}
+
+#product #box #addBasket .quantity, #products li .basket #addBasket .quantity{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px #dbdbdb  solid;
+  margin-right: 5px;
+  outline: none;
+  padding-left: 18px;
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+
+#product #box #addBasket .submit:before {
+  font-family: "Font Awesome 5 Free";
+   content: "\f07a";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight: 900;
+   padding-right: 7px;
+}
+
+#product #box #addBasket .submit:hover {
+  text-shadow: none;
+  color: var(--themeColor);
+  background: white;
+}
+
+#product #box #addBasket fieldset{
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+#product #box #price {
+  text-shadow: none;
+  text-align: left;
+  border: none;
+  padding: 0px 0px 8px 0px;
+}
+
+#product #box #price em, #product #box #price span{
+  display: none;
+}
+
+#product #box #price strong{
+  padding: 0px;
+  color: #333;
+  padding-right: 0.5rem;
+}
+
+#product #box #price #product-page-tomorrow{
+  color: var(--themeColor);
+  display: inline-flex;
+}
+
+#product #box #price #product-page-tomorrow i{
+  padding-right: 0.5rem;
+}
+
+#product #box #price #product-page-tomorrow p{
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 1px;
+  font-weight: bold;
+}
+
+#product div.breadcrumb a:hover {
+  color: var(--themeColor);
+}
+
+#product h1 {
+  margin: 14px 0px;
+}
+
+#product #imagesListPreview {
+  margin: 0;
+}
+
+#product #imagesListPreview li{
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 3px solid transparent;
+}
+
+
+#product #product-page-stars {
+  color: #ffcc00;
+}
+
+#product #product-page-stars::after {
+  content: ' 9.3/10 (3 reviews)';
+  color: #333;
+}
+
+#product div.breadcrumb {
+  border: none;
+}
+
+#product #usp-product{
+  list-style: none;
+  display: inline-block;
+  padding: var(--productContentPadding) 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#product #usp-product li{
+  color: #333;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+#product #usp-product li a{
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#product #usp-product li a:hover{
+  color: var(--themeColor);
+}
+
+#product #usp-product li:before{
+  content: "\f00c";
+  margin-right: 10px;
+  font-family: 'Font Awesome 5 Free';
+  color: var(--themeColor);
+  font-weight: 900;
+}
+
+#product #usp-product strong{
+  color: var(--CTAColor);
+}
+
+#product #product-attributes {
+  color: #333;
+  font-size: 1.083em;
+  padding-bottom: var(--productContentPadding);
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#product #product-attributes .attribute{
+  color: #333;
+  font-size: 1.083em;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: inline-flex;
+}
+
+#product #product-attributes .attribute .fas{
+  text-align: center;
+}
+
+#product #product-attributes .specification{
+  font-weight: bold;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#product #productDescription {
+  padding: var(--productContentPadding) 0px;
+  padding-bottom: 0px;
+}
+
+#product #productDescription .product-discription-bottom{
+  padding-top: var(--productContentPadding);
+  font-size: 1.083em;
+  line-height: 1.5em;
+}
+
+
+#product #productDescriptionShort {
+  font-weight: bold;
+  padding: 0px;
+}
+
+#product #productDescriptionShort p{
+  padding: 0px;
+}
+
+.display-desktop{
+  display: none;
+}
+
+/* Reviews !!! */
+#productpage-reviews {
+  margin-top: 20px;
+}
+
+#productpage-reviews #title{
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#productpage-reviews #star{
+  font-size: 14px;
+}
+
+#productpage-reviews .review-header{
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#productpage-reviews #star .fas{
+  color: #ffcc00;
+}
+
+#productpage-reviews .review-content {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 15px;
+}
+
+#productpage-reviews .review-content .reviewstar {
+  color: #ffcc00;
+}
+
+#productpage-reviews .review-content .header .review-date{
+  font-size: 1.083em;
+  line-height: 30px;
+}
+
+#productpage-reviews .review-content .content {
+  padding: 0px;
+}
+
+#productpage-reviews .review-content .content .review-title {
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+#productpage-reviews .review-content .content .review-text {
+  font-size: 1.083em;
+  line-height: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 48em){
+  .display-mobile {
+    display: none;
+  }
+
+  .display-desktop{
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+
+  #product #box{
+    padding: 0px;
+    margin: 25px 0px;
+  }
+
+  #product h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+  }
+
+  #product #product-attributes {
+    border: none;
+  }
+
+  #product #usp-product {
+    border: none;
+    padding: 0px;
+  }
+
+  #productDescription {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #product #productDescription .product-discription-bottom {
+    padding: 0px;
+  }
+
+  #productpage-reviews .review-content {
+    display: flex;
+  }
+
+  #productpage-reviews .review-content .header {
+    margin-right: 40px;
+  }
+}
