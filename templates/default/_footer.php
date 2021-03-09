@@ -21,7 +21,7 @@ if( !defined( 'CUSTOMER_PAGE' ) )
       --><div class="footer_row2"><a class="footer_link" href="/~1235002/shopsec/?🍪cookies-%F0%9F%94%92privacy,31&sLang=en">Cookies</a></div></div><!--
       --><div class="pure-u-1-2 pure-u-lg-1-3 inline"><!--
       --><div class="footer_row2"><strong>Klantenservice</strong></div><!--
-      --><div class="footer_row2"><strong>E-mail:</strong> info@plantbox.com</div><!--
+      --><div class="footer_row2"><strong>E-mail:</strong> info@hapiticc.com</div><!--
       --><div class="footer_row2"><strong>tel:</strong> +31 (0)295-080754</div><!--
     -->  </div><!--
 

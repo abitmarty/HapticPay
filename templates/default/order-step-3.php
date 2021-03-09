@@ -25,6 +25,7 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
     $sOrderProducts = $oOrder->listProducts( $iOrder );
     ?>
     <div id="orderPrint">
+      <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo $oOrder->aOrders[$iOrder]['sProductsSummary']; ?>&choe=UTF-8" title="Link to Google.com" />
       <?php
         if( isset( $aData['sDescriptionFull'] ) )
           echo '<div class="content" id="pageDescription">'.$aData['sDescriptionFull'].'</div>'; // full description
@@ -43,7 +44,6 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
         <dt class="phone"><?php echo $lang['Telephone']; ?>:</dt><dd class="phone"><?php echo $aOrder['sPhone']; ?></dd>
         <dt class="email"><?php echo $lang['Email']; ?>:</dt><dd class="email"><?php echo $aOrder['sEmail']; ?></dd>
         <dt class="orderDate"><?php echo $lang['Date']; ?>:</dt><dd class="orderDate"><?php echo $aOrder['sDate']; ?></dd>
-        <dt class="orderIP">IP:</dt><dd class="orderIP"><?php echo $aOrder['sIp']; ?></dd>
         <dt class="orderComment"><?php echo $lang['Comment']; ?>:</dt><dd class="orderComment"><?php if( isset( $aOrder['sComment'] ) ) echo str_replace( '|n|', '<br />', $aOrder['sComment'] ); ?></dd>
       </dl>
       <div class="legend"><?php echo $lang['Products']; ?></div>

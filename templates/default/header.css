@@ -1,6 +1,6 @@
 :root {
   --viewport: 1400px;
-  --themeColor: #138c2b;
+  --themeColor: #1976D2;
   --categoryHeight: 50px;
   --iconFontSize: 20px;
   --headerHightMobile: 40px;
@@ -111,7 +111,7 @@ html {
 }
 
 #cart-count-indicator:after{
-  background: green;
+  background: var(--themeColor);
   border-radius: 100px;
   border-top: 0;
   content: '';
@@ -169,7 +169,7 @@ html {
 }
 
 #head2 .container #shop-logo{
-  background-image: url('../admin/img/PlantBoxPlantBoxLogo.webp');
+  background-image: url('../admin/img/haptic-logo.png');
   background-repeat: no-repeat;
    background-size: contain;
    background-position: center center;

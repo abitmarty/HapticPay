@@ -1,3 +1,4 @@
+/* Luc */
 .boxed{
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -79,4 +80,28 @@
   #shippingAndPayments div{
     width: 40%;
   }
+}
+
+/* New */
+#basket #recount{
+  border: none;
+}
+
+#basket #recount td {
+  border: none;
+}
+
+#basket .del{
+  line-height: 25px;
+}
+
+#paymentQR {
+  margin: auto;
+  display: block;
+  float: none;
+}
+
+#orderPrint #pageDescription p{
+  color: black;
+  margin: 0;
 }
