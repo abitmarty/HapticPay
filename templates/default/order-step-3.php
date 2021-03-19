@@ -25,7 +25,7 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
     $sOrderProducts = $oOrder->listProducts( $iOrder );
     ?>
     <div id="orderPrint">
-      <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo $oOrder->aOrders[$iOrder]['sProductsSummary']; ?>&choe=UTF-8" title="Link to Google.com" />
+      <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4); ?>&choe=UTF-8" title="Link to Google.com" />
       <?php
         if( isset( $aData['sDescriptionFull'] ) )
           echo '<div class="content" id="pageDescription">'.$aData['sDescriptionFull'].'</div>'; // full description

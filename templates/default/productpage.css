@@ -176,7 +176,7 @@
 }
 
 #product #usp-product strong{
-  color: var(--CTAColor);
+  color: var(--themeColor);
 }
 
 #product #product-attributes {

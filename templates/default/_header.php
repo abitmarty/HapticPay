@@ -66,7 +66,7 @@ echo '<?xml'; ?> version="1.0" encoding="<?php echo $config['charset']; ?>"?>
         </a><!--
         --><div id="header-icons-container" class="pure-u-1-2 pure-u-sm-19-24">
           <div class="header-icons">
-            <a id="shop-rating" href="https://nl.trustpilot.com/review/plantenkoning.nl" target="blank"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></a>
+            <a id="shop-rating" href="https://nl.trustpilot.com/review/hapily.de" target="blank"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></a>
             <div id="shop-search" class="header-icon"><i class="fas fa-search"></i></div>
             <?php
               if( isset( $config['page_search'] ) && is_numeric( $config['page_search'] ) && isset( $oPage->aPages[$config['page_search']] ) ){ // search form starts here ?>
