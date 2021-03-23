@@ -4,8 +4,11 @@ if( !defined( 'CUSTOMER_PAGE' ) )
   exit;
 
 $config['this_is_order_page'] = true;
+// require 'phpqrcode/qrlib.php';
+// echo QRcode::png("20");
 
 require_once DIR_SKIN.'_header.php'; // include design of header
+
 ?>
 <div id="page">
 <?php
@@ -23,9 +26,11 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
 
     $aOrder = $oOrder->throwOrder( $iOrder );
     $sOrderProducts = $oOrder->listProducts( $iOrder );
+    $_SESSION['qrAmount'] = ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4);
     ?>
     <div id="orderPrint">
-      <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4); ?>&choe=UTF-8" title="Link to Google.com" />
+      <img src="templates/default/image.php"/>
+      <!-- <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4); ?>&choe=UTF-8" title="Link to Google.com" /> -->
       <?php
         if( isset( $aData['sDescriptionFull'] ) )
           echo '<div class="content" id="pageDescription">'.$aData['sDescriptionFull'].'</div>'; // full description
@@ -95,7 +100,6 @@ else{
 </div>
 <?php
   require_once DIR_SKIN.'_footer.php'; // include design of footer
-
   function exsists($naam){
     if (file_exists($naam . ".txt")) {
       $last = substr($naam, -1);

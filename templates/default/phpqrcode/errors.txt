@@ -1,0 +1,54 @@
+2021-03-23 12:47:11: empty string!!!2021-03-23 13:24:42: empty string!!!2021-03-23 13:34:48: empty string!!!2021-03-23 13:34:48: empty string!!!2021-03-23 13:39:00: empty string!!!2021-03-23 13:40:11: <br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+2021-03-23 13:41:02: <br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type float in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+2021-03-23 13:42:12: <br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>71</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>53</b><br />
+<br />
+<b>Notice</b>:  Trying to access array offset on value of type int in <b>C:\xampp\htdocs\HapticPay\templates\default\phpqrcode\qrsplit.php</b> on line <b>62</b><br />
