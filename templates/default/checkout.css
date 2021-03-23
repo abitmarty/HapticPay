@@ -110,3 +110,10 @@
 #order #personalData .input, #order #personalData #oComment:focus{
     outline: none;
 }
+
+
+#orderPrint img {
+  margin: auto;
+  display: block;
+  float: none;
+}

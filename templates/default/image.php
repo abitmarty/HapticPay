@@ -2,5 +2,14 @@
 include "phpqrcode/qrlib.php";
 session_start();
 
-QRcode::png($_SESSION['qrAmount']);
+echo "<p>Je moeder</p>"
+
+
+QRcode::png(
+  $_SESSION['qrAmount'],
+  $outfile = false,
+  $level = QR_ECLEVEL_L,
+  $size = 15,
+);
+
 ?>

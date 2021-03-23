@@ -29,7 +29,7 @@ if( isset( $aData['sName'] ) ){ // displaying pages and subpages content
     $_SESSION['qrAmount'] = ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4);
     ?>
     <div id="orderPrint">
-      <img src="templates/default/image.php"/>
+      <?php require_once('phpqrcode/tryou.php') ?>
       <!-- <img id="paymentQR" src="https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=<?php echo ((int)$oOrder->aOrders[$iOrder]['sProductsSummary']/4); ?>&choe=UTF-8" title="Link to Google.com" /> -->
       <?php
         if( isset( $aData['sDescriptionFull'] ) )
